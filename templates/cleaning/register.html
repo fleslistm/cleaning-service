@@ -1,0 +1,1 @@
+{% extends "cleaning/base.html" %}{% block title %}Регистрация{% endblock %}{% block content %}<section class="wrap page narrow"><div class="panel"><h1>Создать аккаунт</h1><form method="post" class="form">{% csrf_token %}{{ form.as_p }}<button class="btn full">Зарегистрироваться</button></form></div></section>{% endblock %}

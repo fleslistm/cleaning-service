@@ -1,0 +1,25 @@
+Пример осмысленной истории (коммиты делайте по факту выполнения этапов):
+
+Занятие 7:
+git add .gitignore requirements.txt config cleaning
+ git commit -m "Создан Django-проект и настроено приложение cleaning"
+git add templates/cleaning/base.html static/cleaning
+ git commit -m "Сверстана главная страница и добавлены общие стили"
+git add cleaning/urls.py config/urls.py
+ git commit -m "Настроены именованные маршруты сайта"
+
+Занятие 8:
+git add templates/cleaning/catalog.html templates/cleaning/about.html templates/cleaning/search.html
+ git commit -m "Добавлены каталог услуг и информационные страницы"
+git add templates/cleaning/account.html templates/cleaning/order_detail.html
+ git commit -m "Реализован личный кабинет и просмотр заказа"
+git add static/cleaning/css/site.css
+ git commit -m "Добавлена адаптивная сетка и мобильная навигация"
+
+Занятие 9:
+git add cleaning/forms.py cleaning/views.py templates/cleaning/order_form.html
+ git commit -m "Добавлена серверная валидация формы заказа"
+git add static/cleaning/js/site.js
+ git commit -m "Реализованы клиентская проверка и динамический калькулятор"
+git add cleaning/urls.py
+ git commit -m "Подключён JSON endpoint расчёта стоимости"
